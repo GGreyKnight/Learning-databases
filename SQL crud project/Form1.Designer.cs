@@ -125,12 +125,13 @@ namespace SQL_crud_project
             // 
             this.button2.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(379, 315);
+            this.button2.Location = new System.Drawing.Point(376, 315);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(95, 43);
             this.button2.TabIndex = 8;
             this.button2.Text = "Update";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
